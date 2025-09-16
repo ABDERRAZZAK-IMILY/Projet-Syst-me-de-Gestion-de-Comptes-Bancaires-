@@ -9,3 +9,10 @@ Ce projet est une application console Java 8 permettant à une banque de gérer 
 - Java 8
 - Eclipse IDE
 -
+
+
+# UML :
+
+![alt text](<Capture d’écran_16-9-2025_165743_app.diagrams.net.jpeg>)
+
+
