@@ -1,3 +1,4 @@
+package bank.app;
 
 public class CompteCourant extends Compte {
 	
@@ -7,7 +8,7 @@ public class CompteCourant extends Compte {
 
 	 public CompteCourant(String code, double solde) {
 		super(code, solde);
-		this.setDecouvert(decouvert);
+		this.setDecouvert(300);
 	}
 
 	 public  void retirer(double montant) {

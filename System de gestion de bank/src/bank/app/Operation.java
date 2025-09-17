@@ -1,3 +1,4 @@
+package bank.app;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -20,10 +21,7 @@ public abstract class Operation {
 	public LocalDateTime getDate() { return date;}
 	
 	
-	public double getMontant() { return montant;}
-	
-	  public abstract void afficherDetails();
-	
+	public double getMontant() { return montant;}	
 	
 	
 }
