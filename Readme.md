@@ -1,5 +1,5 @@
-##### Bank Account Management System
- # Description
+# Bank Account Management System
+ ### Description
    This is a console-based Java 8 application for managing bank accounts (current and savings). It supports creating accounts, performing deposits, withdrawals, transfers, and viewing account balances and transaction history. Data persists in memory until the application closes.
 ## Technologies Used
 
@@ -42,7 +42,7 @@ Run the JAR:java -jar bank.jar
 
 
 
-# Usage
+## Usage
 
 Run the application to access an interactive console menu.
 Choose options to create accounts, deposit, withdraw, transfer funds, or view balances and operations.
@@ -50,6 +50,6 @@ Account codes are automatically generated in the format CPT-XXXXX.
 Input validation ensures positive amounts and correct code formats.
 
 ## Screenshots
-  # Class Diagram
+  ### Class Diagram
 
 ![alt text](<Capture d’écran_16-9-2025_165743_app.diagrams.net-2.jpeg>)
