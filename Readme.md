@@ -52,4 +52,4 @@ Input validation ensures positive amounts and correct code formats.
 ## Screenshots
   ### Class Diagram
 
-![alt text](<Capture d’écran_16-9-2025_165743_app.diagrams.net-2.jpeg>)
+![alt text](<Capture d’écran_18-9-2025_9565_app.diagrams.net.jpeg>)
