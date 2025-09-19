@@ -42,6 +42,11 @@ Run the JAR: `java -jar BankApp.jar`
 
 
 
+## Jira URL : 
+
+
+https://azeimily2001-1757951624297.atlassian.net/jira/software/projects/DP/boards/1?atlOrigin=eyJpIjoiNjJkMTZkNTg0NzE1NDZkNDgzOWUwYmNkMzVmNjk2MWIiLCJwIjoiaiJ9
+
 ## Usage
 
 Run the application to access an interactive console menu.
