@@ -28,17 +28,17 @@ Clone the GitHub repository:git clone <repository-url>
 
 
 Open the project in Eclipse.
-Compile and run the Menu class in the com.bank.ui package.
+Compile and run the Main class in the bank.app package.
 
 Generating and Running JAR
 
-Compile the source files:javac com/bank/**/*.java
+Compile the source files:  `javac bank/**/*.java`
 
 
-Create the JAR file:jar cfe bank.jar com.bank.ui.Menu com/bank/**/*.class
+Create the JAR file: `jar cfe BankApp.jar bank.app.Main bank/**/*.class`
 
 
-Run the JAR:java -jar bank.jar
+Run the JAR: `java -jar BankApp.jar`
 
 
 
@@ -53,3 +53,8 @@ Input validation ensures positive amounts and correct code formats.
   ### Class Diagram
 
 ![alt text](<Capture d’écran_18-9-2025_9565_app.diagrams.net.jpeg>)
+
+ 
+ ### Menu :
+
+![alt text]({273CE22A-93DF-476F-9120-C4C4CB91D9D3}.png)
