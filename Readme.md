@@ -8,14 +8,13 @@ Java Time API (for operation dates)
 Collections: ArrayList, HashMap
 UUID for unique operation identifiers
 Scanner for console input
-Stream API (for bonus filtering)
 
 ## Project Structure
 
 com.bank.model: Model classes (Compte, CompteCourant, CompteEpargne, Operation, Versement, Retrait)
 com.bank.metier: Business logic (CompteService)
-com.bank.util: Utility functions (InputValidator)
-com.bank.ui: Console interface (Menu)
+com.bank.util: Utility functions (Validation)
+com.bank.ui: Console interface (Main)
 
 ## Prerequisites
 
