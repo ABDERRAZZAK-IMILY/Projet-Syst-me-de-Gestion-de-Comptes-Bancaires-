@@ -11,10 +11,10 @@ Scanner for console input
 
 ## Project Structure
 
-com.bank.model: Model classes (Compte, CompteCourant, CompteEpargne, Operation, Versement, Retrait)
-com.bank.metier: Business logic (CompteService)
-com.bank.util: Utility functions (Validation)
-com.bank.ui: Console interface (Main)
+bank.model: Model classes (Compte, CompteCourant, CompteEpargne, Operation, Versement, Retrait)
+bank.servic: Business logic (CompteService)
+bank.valid: Utility functions (Validation)
+bank.app: Console interface (Main)
 
 ## Prerequisites
 
