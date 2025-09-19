@@ -1,5 +1,8 @@
-package bank.app;
+package bank.model;
+
+
 import java.util.List;
+
 import java.util.ArrayList;
 
 
@@ -14,6 +17,11 @@ public abstract class Compte {
 	
 	public Compte(String code , double solde) {
 		
+		bank.valid.Validation.validerCode(code);
+
+		 if (solde < 0) {
+	            throw new IllegalArgumentException("le solde est nigative entre sold positif");
+		 }
 		this.code = code;
 		this.solde = solde;
 		this.listeOperations = new ArrayList<>();
@@ -28,13 +36,16 @@ public abstract class Compte {
 	
 	public List<Operation> getListeOperations() { return listeOperations; }
 	
-	public abstract void retirer(double montant);
-
+	public abstract void retirer(double montant, String destination);
 	
 	public abstract double calculerInteret();
 
 	
-	public abstract void afficherDetails();
+	public abstract String afficherDetails();
+	
+	 protected void addOperation(Operation operation) {
+	        listeOperations.add(operation);
+	    }
 
 	
 }

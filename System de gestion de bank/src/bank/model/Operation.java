@@ -1,4 +1,4 @@
-package bank.app;
+package bank.model;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
