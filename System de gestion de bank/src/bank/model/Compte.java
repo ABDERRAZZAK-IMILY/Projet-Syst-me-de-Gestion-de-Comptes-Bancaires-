@@ -29,6 +29,12 @@ public abstract class Compte {
 		
 	}
 	
+	  public void verser(double montant, String source) {
+	        solde += montant;
+	        listeOperations.add(new Versement(montant, source));
+	    }
+	
+	
 	public String getCode() { return code; }
 	public double getSolde() { return solde; }
 	

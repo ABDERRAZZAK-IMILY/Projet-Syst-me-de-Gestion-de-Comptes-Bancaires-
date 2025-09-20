@@ -39,6 +39,11 @@ public class CompteService {
         
     }
     
+    
+    public void verser(String code, double montant, String source) {
+        Compte compte = getCompte(code);
+        compte.verser(montant, source);
+    }
     public double getSolde(String code) {
         Compte compte = getCompte(code);
 

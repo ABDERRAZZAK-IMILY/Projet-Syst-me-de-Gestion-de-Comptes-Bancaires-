@@ -40,6 +40,12 @@ public class Main {
                     case 4:
                         consulterSolde();
                         break;
+                    case 5:
+                        consulterOperations();
+                        break;
+                    case 6:
+                        effectuerVersement();
+                        break;
                     case 0:
                         System.out.println(GREEN + "Au revoir !" + RESET);
                         running = false;
@@ -60,11 +66,23 @@ public class Main {
         System.out.println("2. Effectuer un retrait");
         System.out.println("3. Effectuer un virement");
         System.out.println("4. Consulter le solde");
+        System.out.println("5. Consulter les operations");
+        System.out.println("6. Effectuer un versement");
         System.out.println(RED + "0. Quitter" + RESET);
         System.out.print(YELLOW + "Choix : " + RESET);
     }
 
-    
+    private static void effectuerVersement() {
+        String code = lireCode();
+        double montant = lireMontant();
+        System.out.print(CYAN + "source (ex: salaire, Depot especes) : " + RESET);
+        String source = scanner.nextLine().trim();
+        if (source == null || source.trim().isEmpty()) {
+            throw new IllegalArgumentException("La source ne peut pas être vide.");
+        }
+        service.verser(code, montant, source);
+        System.out.println(GREEN + "Versement effectué." + RESET);
+    }
     
     private static void creerCompte() {
         System.out.print(CYAN + "Type de compte (1: Courant, 2: Epargne) : " + RESET);
@@ -120,7 +138,10 @@ public class Main {
     
     
     
-    
+    private static void consulterOperations() {
+        String code = lireCode();
+        System.out.println(CYAN + service.getDetails(code) + RESET);
+    }
     
 
     private static void effectuerRetrait() {
@@ -171,4 +192,7 @@ public class Main {
             throw new IllegalArgumentException("Montant invalide, veuillez entrer un nombre positif.");
         }
     }
+    
+    
+    
 }
