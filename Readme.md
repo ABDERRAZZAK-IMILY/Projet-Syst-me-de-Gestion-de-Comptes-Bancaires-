@@ -11,26 +11,7 @@ Scanner for console input
 
 ## Project Structure
 
-```text
-`
-src/
-├── bank/
-│   ├── model/
-│   │   ├── Compte.java
-│   │   ├── CompteCourant.java
-│   │   ├── CompteEpargne.java
-│   │   ├── Operation.java
-│   │   ├── Versement.java
-│   │   ├── Retrait.java
-│   ├── service/
-│   │   ├── CompteService.java
-│   ├── valid/
-│   │   ├── Validation.java
-│   ├── app/
-│   │   ├── Main.java
-`
-
-bank:-----------------------------------------------------------------------------------------------
+bankAPP : 
 ------------------------------------------------------------------------------------------
       bank.model: Model classes (Compte, CompteCourant, CompteEpargne, Operation, Versement, Retrait)
 --------------------------------------------------
@@ -94,3 +75,21 @@ Input validation ensures positive amounts and correct code formats.
 
 
 
+## Project Structure
+
+```text
+src/
+├── bank/
+│   ├── model/
+│   │   ├── Compte.java
+│   │   ├── CompteCourant.java
+│   │   ├── CompteEpargne.java
+│   │   ├── Operation.java
+│   │   ├── Versement.java
+│   │   ├── Retrait.java
+│   ├── service/
+│   │   ├── CompteService.java
+│   ├── valid/
+│   │   ├── Validation.java
+│   ├── app/
+│   │   ├── Main.java
