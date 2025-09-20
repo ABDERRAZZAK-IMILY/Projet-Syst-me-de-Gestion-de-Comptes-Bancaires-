@@ -11,6 +11,24 @@ Scanner for console input
 
 ## Project Structure
 
+
+src/
+├── bank/
+│   ├── model/
+│   │   ├── Compte.java
+│   │   ├── CompteCourant.java
+│   │   ├── CompteEpargne.java
+│   │   ├── Operation.java
+│   │   ├── Versement.java
+│   │   ├── Retrait.java
+│   ├── service/
+│   │   ├── CompteService.java
+│   ├── valid/
+│   │   ├── Validation.java
+│   ├── app/
+│   │   ├── Main.java
+README.md
+
 bank:-----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
       bank.model: Model classes (Compte, CompteCourant, CompteEpargne, Operation, Versement, Retrait)
