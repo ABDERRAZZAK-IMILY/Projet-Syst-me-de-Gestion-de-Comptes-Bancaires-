@@ -11,7 +11,8 @@ Scanner for console input
 
 ## Project Structure
 
-
+```text
+`
 src/
 ├── bank/
 │   ├── model/
@@ -27,7 +28,7 @@ src/
 │   │   ├── Validation.java
 │   ├── app/
 │   │   ├── Main.java
-README.md
+`
 
 bank:-----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
@@ -89,3 +90,7 @@ Input validation ensures positive amounts and correct code formats.
  ### Menu :
 
 ![alt text]({273CE22A-93DF-476F-9120-C4C4CB91D9D3}.png)
+
+
+
+
